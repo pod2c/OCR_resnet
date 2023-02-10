@@ -51,3 +51,27 @@ This task is to recognize Korean from a selected dataset by useing EAST model.
 
   folder for evaluation image dataset
   
++ /pth
+
+  folder for storing model pretraining files
+
++ /predictions
+
+  folder for storing inference results file
+  
+## Dataset Description ##
+
+This project uses ICDAR-2017 dataset<br>
+Download Link:[ICDAR-2017](https://rrc.cvc.uab.es/?ch=8&com=downloads)
+
+## How to train? ##
+
++ Step 1
+Download dataset from the link above and put all images into one folder, then implement convert_mlt.py to tranfer the images infomation into ufo format.
+
++ Step 2
+pip install -r requirements.txt to install the required python libraries
+
++Step 3
+Training: python train.py
+Inference: python inference.py
