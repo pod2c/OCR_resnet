@@ -72,6 +72,6 @@ Download dataset from the link above and put all images into one folder, then im
 + Step 2
 pip install -r requirements.txt to install the required python libraries
 
-+Step 3
++ Step 3
 Training: python train.py
 Inference: python inference.py
