@@ -67,11 +67,14 @@ Download Link:[ICDAR-2017](https://rrc.cvc.uab.es/?ch=8&com=downloads)
 ## How to train? ##
 
 + Step 1
-Download dataset from the link above and put all images into one folder, then implement convert_mlt.py to tranfer the images infomation into ufo format.
+
+  Download dataset from the link above and put all images into one folder, then implement convert_mlt.py to tranfer the       images infomation into ufo format.
 
 + Step 2
-pip install -r requirements.txt to install the required python libraries
+
+  pip install -r requirements.txt to install the required python libraries
 
 + Step 3
-Training: python train.py<br>
-Inference: python inference.py
+
+  Training: python train.py<br>
+  Inference: python inference.py
